@@ -1,0 +1,207 @@
+body{
+    background-color: rgb(246,229,187);
+}
+
+th {
+    width: 400px;
+    
+}
+
+.page-name {
+    font-family: Courier, 'Courier New', monospace;
+    background-color:rgb(157,129,93);
+    padding:25px;
+}
+
+#page-border {
+    font-size: 40px;
+    text-align: center;
+    width:400px;
+    border: 2px solid black;
+    margin: 10px auto 10px auto;
+    padding: 30px
+}
+
+.tabs {
+    font-size: 24px;
+    border-width: 2px;
+    border-style: hidden;
+    margin: 50px 0px 0px 0px;
+}
+
+a:link {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:green;
+}
+
+a:visited {
+    color:black;
+}
+
+a:visited:hover {
+    color:green;
+}
+/*The a:visited property is cancelling out the a:hover property*/
+/*If you link visited:hover then the element when hovered will be green even
+ after it has been visited*/
+
+a:active {
+    color: rgb(246,229,187);
+}
+
+a:hover:active {
+    color: rgb(246,229,187);
+}
+
+/* a:hover:active or after visited and hover, active is executed; 
+this became necessary after a:visited:hover cancelled a:active element.*/
+
+.central {
+    border-width:2px;
+    border-style: hidden;
+    margin: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style:italic;
+    text-align: center;
+    border-width: 10px;
+    border-style:ridge;
+    border-color:rgb(246,229,187);
+    margin: 20px auto 20px auto;
+}
+
+.videos {
+    border: 2px hidden black;
+    margin:75px 300px;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(157,129,93);
+    border: width 5px;
+    border-style: hidden;
+}
+
+.footer-container {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    border-width: 2px;
+    border-style: hidden;
+    margin: 50px 0px 0px 10px;
+    text-align: left;
+    max-width: 500px;
+    padding: 20px;
+}
+
+
+/* Blog specfic properties*/
+
+.blog-gallery-about-title {
+    font-family: Courier, 'New Courier', monospace;
+    font-size: 126px;
+    width: 1000px;
+    border-width: 2px;
+    border-style: hidden;
+    margin: 30px 50px 30px 0px;
+}
+
+.blog-subhead {
+    font-family: Courier, 'New Courier', monospace;
+    font-size: 175%;
+}
+
+.article {
+    border: 5px double black;
+    margin: 20px 0px 10px 0px;
+    padding: 20px;
+    font-size: 20px;
+    text-indent: 20px;
+}
+
+.article-title {
+    text-indent:0px;
+    font-size: 36px;
+}
+
+.credit {
+    text-align: right;
+}
+
+p.capital-letter:first-letter {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+
+/*gallery specific elements*/
+
+.table {
+    padding: 10px;
+    min-width: 200px;
+    max-width:250px;
+    text-align: center;
+}
+/* Padding has an effect but not border-style */
+
+.table-description {
+    min-width: 200px;
+    max-width: 250px;
+    text-align: left;
+    padding: 10px;
+}
+
+.count {
+    text-align: center;
+    font-size: 64px;
+    padding: 10px;
+    text-shadow: 2px 2px 2px #b66625;
+
+}
+
+/* About us specific elements*/
+
+.mission {
+    font-family: Courier, 'Courier New', monospace;
+    font-size: 32px;
+    font-weight: bold;
+    border: 2px hidden black;
+    margin: 50px 0px 0px 0px;
+}
+
+.mission-contact-content {
+    font-family: Courier, 'Courier New', monospace;
+    font-size: 24px;
+    text-align: left;
+}
+
+.contact {
+    font-family: Courier, 'Courier New', monospace;
+    font-size: 32px;
+    font-weight: bold;
+    border: 2px hidden black;
+    margin: 50px 0px 0px 0px;
+}
+
+#contact-box {
+    border: 2px solid black;
+    width: 550px;
+    margin: 20px 0px 0px 0px;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: rgb(184 254 120);
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+}
